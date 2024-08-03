@@ -3,7 +3,7 @@ package com.spring.postmanCRUD.model;
 import jakarta.persistence.Entity;
 import org.springframework.stereotype.Component;
 
-@Entity
+@Component
 public class KeyValue {
     private String key;
     private String value;
