@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("v1/lfu")
+@RequestMapping("v1/cache")
 public class CacheController {
 
     @Autowired
